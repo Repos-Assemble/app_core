@@ -1,0 +1,46 @@
+name: app_core
+description: "An opinionated core for a basic project based on riverpod"
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ">=3.10.1 <4.0.0"
+
+dependencies:
+  animations: ^2.0.11
+  ui_widgets_basic:
+    git:
+      url: https://github.com/Repos-Assemble/ui_widgets_basic.git
+      ref: main
+  ui_widgets:
+    git:
+      url: https://github.com/Repos-Assemble/ui_widgets.git
+      ref: main
+  dio: ^5.9.0
+  equatable: ^2.0.7
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  base_kit:
+    git:
+      url: https://github.com/Repos-Assemble/base_kit.git
+      ref: main
+  go_router: ^16.1.0
+  rusty_dart:
+    git:
+      url: https://github.com/TheMakersPrime/rusty_dart.git
+      ref: main
+  sembast: ^3.8.1+1
+  sembast_sqflite: ^2.2.0+4
+  sherlog:
+    git:
+      url: https://github.com/TheMakersPrime/sherlog.git
+      ref: main
+  sqflite: ^2.4.1
+  common_utils:
+    git:
+      url: https://github.com/Repos-Assemble/common_utils.git
+      ref: main
+
+dev_dependencies:
+  very_good_analysis: ^7.0.0
