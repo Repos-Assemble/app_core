@@ -32,7 +32,7 @@ This package depends on `base_kit`, `common_utils`, `ui_widgets`, and `ui_widget
 
 ## Open items
 
-- Still depends on `rusty_dart` and `sherlog` from the `TheMakersPrime` GitHub org — check their licenses before distributing this package further, or plan to replace them
+- Still depends on `rusty_dart` and `sherlog` from the `TheMakersPrime` GitHub org — check their licenses before distributing this package further, or plan to replace them.
 
 ## Credits
 
